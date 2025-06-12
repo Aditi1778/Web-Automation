@@ -100,7 +100,6 @@ This script schedules the above automation daily:
 
 ```txt
 selenium==4.19.0
-schedule==1.2.1
 ```
 
 You can generate this file by running:
@@ -128,7 +127,7 @@ Keep the terminal running. It will check every second and execute `daily_booking
 You can change the time in `scheduler.py` temporarily to the current time + 1 minute for quick testing:
 
 ```python
-schedule.every().day.at("14:59").do(run_booking_script)
+schedule.every().day.at("9:00").do(run_booking_script)
 ```
 
 ---
@@ -154,7 +153,7 @@ schedule.every().day.at("14:59").do(run_booking_script)
 ## 👤 Author
 
 **Aditi**
-Python Developer | Automation Enthusiast
+AI Developer | Automation Enthusiast
 
 ---
 
