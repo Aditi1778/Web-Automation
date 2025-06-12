@@ -9,7 +9,7 @@ Sure! Here's a **complete, well-documented `README.md`** file with detailed expl
 ```markdown
 # 🏌️ Rambagh Golf Club Tee Time Automation
 
-This project automates daily golf tee time bookings on the [Rambagh Golf Club Jaipur](https://rambaghgolfclubjaipur.com/) website. It uses **Selenium WebDriver** to interact with the site, and a **Python scheduler script** to run the automation every day at 3:00 PM IST.
+This project automates daily golf tee time bookings on the [Rambagh Golf Club Jaipur](https://rambaghgolfclubjaipur.com/) website. It uses **Selenium WebDriver** to interact with the site, and a **Python scheduler script** to run the automation every day at 9:00 AM IST.
 
 ---
 
@@ -89,7 +89,7 @@ This is the main Selenium script that performs the following steps:
 This script schedules the above automation daily:
 
 * Uses a simple time loop to check system time.
-* Triggers `daily_booking.py` at 3:00 PM IST (set using local time).
+* Triggers `daily_booking.py` at 9:00 AM IST (set using local time).
 * Uses `subprocess.run()` to execute the script.
 
 > ⚠️ Important: Ensure your system's clock is set to IST or adjust the schedule time accordingly.
